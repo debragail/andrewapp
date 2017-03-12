@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="menu">
+    {{#link-to 'index'}}
+      <h1 class="left">
+        <em>Andrew Strasser</em>
+      </h1>
+    {{/link-to}}
+    <div class="left links">
+      {{#link-to 'contact'}}
+        Contact
+      {{/link-to}}
+      {{#link-to 'payment'}}
+        Payment
+      {{/link-to}}
+    </div>
+  </div>
+  <div class="body">
+    {{outlet}}
+  </div>
+</div>
