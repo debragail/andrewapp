@@ -1,0 +1,3 @@
+define("ember-quickstart/templates/items", ["exports"], function (exports) {
+  exports["default"] = Ember.HTMLBars.template({ "id": "JvBxxmzn", "block": "{\"statements\":[[\"append\",[\"helper\",[\"item-list\"],null,[[\"title\",\"item\"],[\"Portfolio\",[\"get\",[\"model\"]]]]],false],[\"text\",\"\\n\"],[\"append\",[\"unknown\",[\"outlet\"]],false],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "ember-quickstart/templates/items.hbs" } });
+});
