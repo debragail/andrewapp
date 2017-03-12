@@ -11,12 +11,16 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
-  response.render('pages/index');
+  response.render('/pages/index');
 });
 
 app.get('/cool', function(request, response) {
 	response.send(cool());
 });
+
+app.get('/ember-quickstart/app', function(request, response) {
+        response.render('/ember-quickstart/app');
+    });
 
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port for menu', app.get('port'));
