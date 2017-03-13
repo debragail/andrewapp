@@ -11,7 +11,7 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
-  response.render('/ember-quickstart/app');
+  response.render('/pages/views');
 });
 
 app.get('/cool', function(request, response) {
