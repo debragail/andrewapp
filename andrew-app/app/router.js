@@ -7,14 +7,15 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-	this.route('index', { path: '/' });
-	this.route('contact');
-	this.route('booking');
-	this.route('payment');
-	this.route('who');
-	this.route('what');
-	this.route('when');
-	this.route('groupz');
+  this.route('index', { path: '/' });
+  this.route('contact');
+  this.route('booking');
+  this.route('payment');
+  this.route('who');
+  this.route('what');
+  this.route('when');
+  this.route('groupz');
+  this.route('menu');
 });
 
 export default Router;
