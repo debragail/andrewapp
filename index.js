@@ -11,7 +11,7 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
-	response.render('/pages/views');
+	response.render('/andrew-app/dist/index.html');
 });
 
 app.get('/cool', function(request, response) {
