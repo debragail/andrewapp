@@ -2,14 +2,12 @@
   <div class="menu">
     {{#link-to 'index'}}
       <h1 class="logo">
-        <em>Adrew Strasser</em>
+        <em>Andrew Strasser</em>
       </h1>
     {{/link-to}}
     <ul class="menu">
     {{#link-to 'menu'}}       
-	<li> 
-	<h1>Menu</h1>
-	</li>
+	<li>Menu</li>
       {{/link-to}}
       {{#link-to 'contact'}}
         <li>Contact</li>
@@ -26,3 +24,6 @@
     {{outlet}}
   </div>
 </div>
+<footer>
+Andrew Strasser 2017
+</footer>
