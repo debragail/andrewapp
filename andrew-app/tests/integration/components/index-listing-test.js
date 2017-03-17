@@ -1,6 +1,6 @@
 import { moduleForComponent, test } from 'ember-qunit';
 import hbs from 'htmlbars-inline-precompile';
-import Ember from 'ember';
+//import Ember from 'ember';
 
 moduleForComponent('index-listing', 'Integration | Component | index listing', {
   integration: true
