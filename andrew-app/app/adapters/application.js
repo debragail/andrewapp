@@ -1,7 +1,11 @@
 import DS from 'ember-data';
 
 export default DS.JSONAPIAdapter.extend({
+    });
 
+import AirtableAdapter from "ember-airtable/adapter";
+ 
+export default AirtableAdapter.extend({
 
 	host: 'https://api.airtable.com',
 
