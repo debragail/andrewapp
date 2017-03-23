@@ -1,11 +1,7 @@
 <div class="container">
   <div class="squares">
-    {{#link-to 'index'}}
-      <h1 class="logo">
-        Andrew Strasser
-      </h1>
-    {{/link-to}}
-    <ul class="squares">
+<p>yo</P  
+<ul>
     {{#link-to 'menu'}}       
 	<li>Menu</li>
       {{/link-to}}
@@ -20,10 +16,13 @@
       {{/link-to}}
       </ul>
   </div>
-  <div class="body">
-    {{outlet}}
-  </div>
 </div>
+  <div class="body">
+<p>whatup</p>    
+{{outlet}}
+  </div>
+<div class="footer">
 <footer>
-Andrew Strasser 20177
+Andrew Strasser 2017
 </footer>
+</div>
