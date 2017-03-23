@@ -1,28 +1,21 @@
+<h2 id="title">Welcome to Ember</h2>
 <div class="container">
-  <div class="squares">
-<p>yo</p>  
-<ul>
-    {{#link-to 'menu'}}       
-	<li>Menu</li>
+  <div class="menu">
+    {{#link-to 'index'}}
+      <h1 class="left">
+        <em>SuperRentals</em>
+      </h1>
+    {{/link-to}}
+    <div class="left links">
+      {{#link-to 'about'}}
+        About
       {{/link-to}}
       {{#link-to 'contact'}}
-        <li>Contact</li>
+        Contact
       {{/link-to}}
-      {{#link-to 'payment'}}
-        <li>Payment</li>
-      {{/link-to}}
-      {{#link-to 'booking'}}
-        <li>Booking</li>
-      {{/link-to}}
-      </ul>
+    </div>
   </div>
-</div>
   <div class="body">
-<p>whatup</p>    
-{{outlet}}
+    {{outlet}}
   </div>
-<div class="footer">
-<footer>
-Andrew Strasser 2017
-</footer>
 </div>

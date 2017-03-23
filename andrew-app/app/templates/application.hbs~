@@ -1,20 +1,17 @@
-<div class="container">
-  <div class="squares">
-<p>yo</P  
-<ul>
-    {{#link-to 'menu'}}       
-	<li>Menu</li>
+<div class="container">  
+<div class="menu>    
+{{#link-to 'menu'}}       
+	Menu
       {{/link-to}}
       {{#link-to 'contact'}}
-        <li>Contact</li>
+        Contact
       {{/link-to}}
       {{#link-to 'payment'}}
-        <li>Payment</li>
+        Payment
       {{/link-to}}
       {{#link-to 'booking'}}
-        <li>Booking</li>
+        Booking
       {{/link-to}}
-      </ul>
   </div>
 </div>
   <div class="body">
