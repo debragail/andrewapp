@@ -19,7 +19,8 @@ Router.map(function() {
       this.route('what', { path: '/what/:what_id' });
       this.route('when', { path: '/when/:when_id' });
       this.route('groupz', { path: '/groupz/:groupz_id' });
-      } */ 
+      } */
+  this.route('menu');
 });
 
 export default Router;
