@@ -1,12 +1,12 @@
 <div class="container">
-  <div class="menu">
+  <div class="squares">
     {{#link-to 'index'}}
       <h1 class="logo">
-        <em>Andrew Strasser</em>
+        Andrew Strasser
       </h1>
     {{/link-to}}
-    <ul class="menu">
-    {{#link-to 'index'}}       
+    <ul class="squares">
+    {{#link-to 'menu'}}       
 	<li>Menu</li>
       {{/link-to}}
       {{#link-to 'contact'}}
@@ -25,5 +25,5 @@
   </div>
 </div>
 <footer>
-Andrew Strasser 2017
+Andrew Strasser 20177
 </footer>
