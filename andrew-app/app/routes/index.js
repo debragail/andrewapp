@@ -1,6 +1,6 @@
 import Ember from 'ember';
 
-let rentals = [{
+let items = [{
 	id: 1,
 	title: 'Grand Old Mansion',
 	owner: 'Veruca Salt',
