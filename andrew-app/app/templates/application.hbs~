@@ -13,7 +13,7 @@
       {{#link-to 'contact'}}
         Contact
       {{/link-to}}
-      {{#link-to 'https://secure.squarespace.com/commerce/donate?donatePageId=53052a36e4b0f73a9b7bbedb'}}
+      {{#link-to 'payment'}}
       Payment
       {{/link-to}}
       {{#link-to 'booking'}}
