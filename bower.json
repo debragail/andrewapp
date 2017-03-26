@@ -1,6 +1,8 @@
 {
   "name": "andrew-app",
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
   "description": "",
   "main": "",
   "license": "MIT",
