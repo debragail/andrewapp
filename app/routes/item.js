@@ -1,11 +1,9 @@
 import Ember from 'ember';
 
-let test = [{
-	who: 'andrewwk',
-	when: '2012',
-	what 'lighting and photography'
-}];
-	
+let item = [{
+	who: 'andrew'
+    }];
+
 export default Ember.Route.extend({
 	model() {
 	    return item;
