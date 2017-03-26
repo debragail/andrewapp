@@ -12,8 +12,7 @@
   "scripts": {
     "build": "ember build",
     "start": "ember server",
-    "test": "ember test",
-    "postinstall": "bower install && grunt build"
+    "test": "ember test"
   },
   "devDependencies": {
     "bootstrap": "^3.3.7",
