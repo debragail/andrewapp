@@ -1,27 +1,23 @@
-<div class="jumbo">
-  <div class="right tomster"></div>
-  <h2>Items</h2>
-  <img url='https://dl.airtable.com/OCyEE0Q2KFEVEh6ARuAQ_14.jpg'/>
+
+  <h2>HOMEPAGE</h2>
+  
   <p>A PROPER CONTEMPORARY ALBUM COVER SHOULD BE ABLE TO FUNCTION AS A SMALL ICON AS WELL AS A LARGE POSTER</p>
-  {{#link-to 'about' class="button"}}
-    Andrew W.K.
-  {{/link-to}}
-</div>
+
 {{#each model as |item|}}
-  <article class="listing">
-    <h3>{{rental.title}}</h3>
-    <div class="detail owner">
-      <span>Owner:</span> {{rental.owner}}
+  <article class="item">
+    <div class="detail who">
+      <span>Who:</span> {{item.who}}
     </div>
-    <div class="detail type">
-      <span>Type:</span> {{rental.type}}
+    <div class="detail what">
+      <span>What:</span> {{item.what}}
     </div>
-    <div class="detail location">
-      <span>Location:</span> {{rental.city}}
+    <div class="detail when">
+      <span>When:</span> {{item.when}}
     </div>
-    <div class="detail bedrooms">
-      <span>Number of bedrooms:</span> {{rental.bedrooms}}
+    <div class="detail desc">
+      <span>Desc:</span> {{item.desc}}
     </div>
   </article>
 {{/each}}
+{{outlet}}
 {{outlet}}

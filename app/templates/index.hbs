@@ -1,24 +1,22 @@
-<div class="jumbo">
-  <div class="right tomster"></div>
-  <h2>Items</h2>
+
+  <h2>HOMEPAGE</h2>
   
   <p>A PROPER CONTEMPORARY ALBUM COVER SHOULD BE ABLE TO FUNCTION AS A SMALL ICON AS WELL AS A LARGE POSTER</p>
-  {{#link-to 'about' class="button"}}
-    Andrew W.K.
-  {{/link-to}}
-</div>
+
 {{#each model as |item|}}
-  <item class="listing">
-    <h3>{{item.title}}</h3>
-    
+  <article class="item">
+    <div class="detail who">
       <span>Who:</span> {{item.who}}
-    
-      <span>Description:</span> {{item.desc}}
-   
-      <span>When:</span> {{item.when}}
-   
+    </div>
+    <div class="detail what">
       <span>What:</span> {{item.what}}
-  
-  </item>
+    </div>
+    <div class="detail when">
+      <span>When:</span> {{item.when}}
+    </div>
+    <div class="detail desc">
+      <span>Desc:</span> {{item.desc}}
+    </div>
+  </article>
 {{/each}}
 {{outlet}}
