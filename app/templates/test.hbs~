@@ -1,6 +1,7 @@
 {{#each model as |item|}}
   <article class="item">
     <h3>{{item.id}}</h3>
+<a href "/" img src="https://dl.airtable.com/OCyEE0Q2KFEVEh6ARuAQ_14.jpg>androo</a>
     <div class="detail who">
       <span>Who:</span> {{item.who}}
     </div>
