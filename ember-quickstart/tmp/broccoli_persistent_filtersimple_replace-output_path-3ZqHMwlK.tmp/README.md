@@ -1,1 +1,0 @@
-/Users/0PHE1IA/andrew/ember-quickstart/tmp/broccoli_persistent_filtersimple_replace-input_base_path-bt9MQXnh.tmp/README.md
