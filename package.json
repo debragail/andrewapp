@@ -16,7 +16,7 @@
     "postinstall": "bower install"
   },
   "devDependencies": {
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^4.0.0-alpha.6",
     "broccoli-asset-rev": "^2.4.5",
     "ember-airtable": "0.0.5",
     "ember-ajax": "^2.4.1",
@@ -33,6 +33,7 @@
     "ember-cli-mirage": "0.2.7",
     "ember-cli-qunit": "^3.0.1",
     "ember-cli-release": "^0.2.9",
+    "ember-cli-sass": "6.1.2",
     "ember-cli-shims": "^1.0.2",
     "ember-cli-sri": "^2.1.0",
     "ember-cli-test-loader": "^1.1.0",
