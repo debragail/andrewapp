@@ -20,4 +20,3 @@
   </article>
 {{/each}}
 {{outlet}}
-{{outlet}}
