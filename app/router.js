@@ -21,6 +21,8 @@ Router.map(function() {
       this.route('groupz', { path: '/groupz/:groupz_id' });
       } */
   this.route('menu');
+  this.route('test');
+  this.route('item');
 });
 
 export default Router;
