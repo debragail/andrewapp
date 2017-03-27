@@ -1,6 +1,7 @@
 {{#each model as |item|}}
+<div class="center">
   <article class="item">
-    <img src=""https://dl.airtable.com/O2gR19UETd6OIUqDOO5D_large_14.jpg">
+    <img src="https://dl.airtable.com/O2gR19UETd6OIUqDOO5D_large_14.jpg">
     <div class="detail who">
       <span>Who:</span> {{item.who}}
     </div>
@@ -14,5 +15,6 @@
       <span>Desc:</span> {{item.desc}}
     </div>
   </article>
+</div>
 {{/each}}
 {{outlet}}

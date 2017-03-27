@@ -1,18 +1,18 @@
 <div class="container">
-    <div class="left links">
+      <ul>
       {{#link-to 'menu'}}
-        Menu
+        <li>Menu</li>
       {{/link-to}}
       {{#link-to 'contact'}}
-        Contact
+        <li>Contact</li>
       {{/link-to}}
       {{#link-to 'payment'}}
-      Payment
+      <li>Payment</li>
       {{/link-to}}
       {{#link-to 'booking'}}
-      Booking
+      <li>Booking</li>
       {{/link-to}}
-    </div>
+</ul>
   <div class="body">
     {{outlet}}
   </div>
