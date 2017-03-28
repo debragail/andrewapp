@@ -12,14 +12,19 @@
 }
 
 body {
-    width: 50%;
-    max-width: 800px;
-    min-width: 480px;
-    margin: 0 auto;
-    padding: 0px;
-    border: 2px solid #888;
-    border-radius: 12px;
-    background-color: #999;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+img.item {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
 
 img {
@@ -27,6 +32,7 @@ img {
     margin: auto;
     width: 40%;
 }
+
 
 .center { 
     height: 200px;
@@ -40,4 +46,37 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+    width: 60px;
+} 
+
+li {
+    display: block;
+    background-color: #dddddd;
+}
+
+//NAV
+
+.icon-bar {
+    width: 50px;
+}
+
+.icon-bar ul {
+	  list-style-type: none;
+	  margin: 10;
+	  padding: 100;
+	  width: 60px;
+}
+
+.icon-bar a:hover {
+    
+}
+
+.active {
+    background-color: #4CAF50;
 }
