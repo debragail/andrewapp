@@ -1,5 +1,5 @@
 import Ember from 'ember';
-var item_list;
+/*var item_list;
 var item;
 
 let item_list = [{
@@ -27,9 +27,9 @@ let item_list = [{
 	bedrooms: 3,
 	image: 'https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg'
     }];
-
+*/
 export default Ember.Route.extend({
 	model() {
-	    return item;
+	     
 	}
     });
