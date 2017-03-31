@@ -6,6 +6,7 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.resource('post', { path: '/:post_id' });
   this.route('index', { path: '/' });
   this.route('contact');
   this.route('booking');
