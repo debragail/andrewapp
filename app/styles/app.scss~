@@ -17,6 +17,7 @@
 body {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .container {
@@ -57,22 +58,44 @@ ul {
 li {
    }
 
-//NAV
+//CONTACT
 
-.icon-bar {
-	  text-align: right;
+.contact {
+	 text-align: left;
 }
 
-.icon-bar ul {
+//RIGHT NAV
+
+.main-icon-bar {
+	  text-align: right;
+	  float: right;
+}
+
+.main-icon-bar ul {
           list-style-image: url('https://dl.airtable.com/rzcmcevQS6eMztp3Ij4p_small_square_default.png');
 }
 
-.icon-bar li {
+.main-icon-bar li {
 }
 
-.icon-bar a:hover {
+.main-icon-bar a:hover {
 
 }
 
-.active {
+//LEFT NAV
+
+.sub-icon-bar {
+          text-align: left;
+          float: left;
+}
+
+.sub-icon-bar ul {
+          list-style-image: url('https://dl.airtable.com/rzcmcevQS6eMztp3Ij4p_small_square_default.png');
+}
+
+.sub-icon-bar li {
+}
+
+.sub-icon-bar a:hover {
+
 }
