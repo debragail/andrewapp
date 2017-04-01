@@ -49,7 +49,6 @@ img {
 }
 
 ul {
-    list-style-type: none;
     margin: 10;
     padding: 0;
     width: 60px;
@@ -58,7 +57,7 @@ ul {
 li {
     display: block;
     background-color: #dddddd;
-}
+   }
 
 //NAV
 
@@ -67,10 +66,10 @@ li {
 }
 
 .icon-bar ul {
-	  list-style-type: none;
-	  margin: 10;
-	  padding: 100;
-	  width: 60px;
+	  list-style-image: url('https://dl.airtable.com/rzcmcevQS6eMztp3Ij4p_small_square_default.png');
+}
+
+.icon-bar li {
 }
 
 .icon-bar a:hover {

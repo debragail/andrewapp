@@ -61,7 +61,6 @@ li {
 
 .icon-bar {
 	  text-align: right;
-	  float: right;
 }
 
 .icon-bar ul {
