@@ -29,5 +29,4 @@ let item_list = [{
     }];
 */
 export default Ember.Route.extend({
-	this.route('index'), {path: '/' });
     });

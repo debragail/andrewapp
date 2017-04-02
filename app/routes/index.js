@@ -29,4 +29,7 @@ let item_list = [{
     }];
 */
 export default Ember.Route.extend({
+	mdoel() {
+	    return this.store.findAll('post');
+	}
     });
