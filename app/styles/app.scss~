@@ -24,12 +24,6 @@ body {
     width: 100%;
 }
 
-img.item {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
-
 img {
     display: block;
     margin: auto;
@@ -55,6 +49,18 @@ ul {
 li {
    }
 
+//ITEM
+
+.item {
+      width: 100%;
+      padding: 50px;
+}
+.item img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
 //CONTACT
 
 .contact {
@@ -78,7 +84,9 @@ li {
           list-style-image: url('https://dl.airtable.com/rzcmcevQS6eMztp3Ij4p_small_square_default.png');
 }
 
-.main-icon-bar li {
+.main-icon-bar li p {
+	       visiblity: hidden;
+	       display: none;
 }
 
 .main-icon-bar a:hover {

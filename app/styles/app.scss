@@ -84,7 +84,9 @@ li {
           list-style-image: url('https://dl.airtable.com/rzcmcevQS6eMztp3Ij4p_small_square_default.png');
 }
 
-.main-icon-bar li {
+.main-icon-bar li p {
+	       visiblity: hidden;
+	       display: none;
 }
 
 .main-icon-bar a:hover {
@@ -102,7 +104,9 @@ li {
           list-style-image: url('https://dl.airtable.com/rzcmcevQS6eMztp3Ij4p_small_square_default.png');
 }
 
-.sub-icon-bar li {
+.sub-icon-bar li p{
+	      visibility: hidden;
+	      display: none;
 }
 
 .sub-icon-bar a:hover {
