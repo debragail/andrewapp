@@ -1,44 +1,29 @@
-{{#bs-modal-simple
-  open=modal2
-  title=title
-  closeTitle=closeTitle
-  submitTitle=submitTitle
-  size=size
-  closeButton=closeButton
-  fade=fade
-  backdrop=backdrop
-  backdropClose=backdropClose
-  onSubmit=(action "submit")
-  onHidden=(action "close")
-  renderInPlace=true}}
-  <a href="/"><img src="https://dl.airtable.com/RAx76fDRA6hk0q7Ppcsv_large_ANDREW%20STRASSER%20LOGO.svg"></a>                                                                                                                                                                                                                         
-<div class="container">                                                                                                                                                                                                                                                                                                             
-  <div class="menu">                                                                                                                                                                                                                                                                                                                
-<div class="row">                                                                                                                                                                                                                                                                                                                   
-  <div class="col-md-4">                                                                                                                                                                                                                                                                                                            
-      {{#link-to 'who'}}                                                                                                                                                                                                                                                                                                            
-      <h1>Who</h1>                                                                                                                                                                                                                                                                                                                  
-      {{/link-to}}                                                                                                                                                                                                                                                                                                                  
-</div>                                                                                                                                                                                                                                                                                                                              
-<div class="col-md-4">                                                                                                                                                                                                                                                                                                              
-      {{#link-to 'what'}}                                                                                                                                                                                                                                                                                                           
-      <h1>What</h1>                                                                                                                                                                                                                                                                                                                 
-      {{/link-to}}                                                                                                                                                                                                                                                                                                                  
-</div>                                                                                                                                                                                                                                                                                                                              
-</div>                                                                                                                                                                                                                                                                                                                              
-<div class="col-md-4">                                                                                                                                                                                                                                                                                                              
-      {{#link-to 'when'}}                                                                                                                                                                                                                                                                                                           
-      <h1>When</h1>                                                                                                                                                                                                                                                                                                                 
-      {{/link-to}}                                                                                                                                                                                                                                                                                                                  
-</div>                                                                                                                                                                                                                                                                                                                              
-<div class="col-md-4">                                                                                                                                                                                                                                                                                                              
-      {{#link-to 'test'}}                                                                                                                                                                                                                                                                                                           
-      <h1>test</h1>                                                                                                                                                                                                                                                                                                                 
-      {{/link-to}}                                                                                                                                                                                                                                                                                                                  
-    </div>                                                                                                                                                                                                                                                                                                                          
-  </div>                                                                                                                                                                                                                                                                                                                            
-</div>                                                                                                                                                                                                                                                                                                                              
+<h1>Andrew Strasser ((logo))</h1>
+<a href="/"><img src="https://dl.airtable.com/RAx76fDRA6hk0q7Ppcsv_large_ANDREW%20STRASSER%20LOGO.svg"></a>
+<div class="container">
+  <div class="menu">
+<div class="row">
+  <div class="col-md-4">
+      {{#link-to 'who'}}
+      <h1>Who</h1>
+      {{/link-to}}
+</div>
+<div class="col-md-4">
+      {{#link-to 'what'}}
+      <h1>What</h1>
+      {{/link-to}}
+</div>
+</div>
+<div class="col-md-4">
+      {{#link-to 'when'}}
+      <h1>When</h1>
+      {{/link-to}}
+</div>
+<div class="col-md-4">
+      {{#link-to 'test'}}
+      <h1>test</h1>
+      {{/link-to}}
+    </div>
+  </div>
+</div>
 {{outlet}}
-{{/bs-modal-simple}}
-{{#bs-button onClick=(action "open")}}Reopen Modal{{/bs-button}}
-
