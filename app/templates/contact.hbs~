@@ -25,6 +25,5 @@
   {{/form.element}}
   {{bs-button defaultText="Submit" type="primary" buttonType="submit"}}
 {{/bs-form}}
-{{log layoutForm}}
 </div>
 {{outlet}}
