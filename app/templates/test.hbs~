@@ -1,26 +1,18 @@
 <div class="item">
-{{#bs-form formLayout=formLayout model=this onSubmit=(action "submit") as |form|}}
-  {{form.element controlType="email" label="Email" placeholder="Email" property="email" required=true}}
-  {{form.element controlType="password" label="Password" placeholder="Password" property="password" required=true}}
-  {{form.element controlType="checkbox" label="Remember me" property="rememberMe"}}
-  {{form.element controlType="textarea" label="Comments" property="comments"}}
-  {{bs-button defaultText="Submit" type="primary" buttonType="submit"}}
-{{/bs-form}}
-
 {{#each model as |item|}}
   <article class="item">
     <img class="item" src="https://dl.airtable.com/O2gR19UETd6OIUqDOO5D_large_14.jpg">
     <div class="detail who">
-      <span>Who:</span> {{item.who}}
+    {{item.who}}
     </div>
     <div class="detail what">
-      <span>What:</span> {{item.what}}
+    {{item.what}}
     </div>
     <div class="detail when">
-      <span>When:</span> {{item.when}}
+    {{item.when}}
     </div>
     <div class="detail desc">
-      <span>Desc:</span> {{item.desc}}
+    {{item.desc}}
     </div>
   </article>
 {{#bs-tab as |tab|}}
@@ -31,6 +23,13 @@
     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
   {{/tab.pane}}
 {{/bs-tab}}
+<div>
+  {{#bs-nav type="tabs" as |nav|}}
+    {{#nav.item}}{{#nav.link-to "demo.tabs.index"}}Tab 1{{/nav.link-to}}{{/nav.item}}
+    {{#nav.item}}{{#nav.link-to "demo.tabs.other"}}Tab 2{{/nav.link-to}}{{/nav.item}}
+  {{/bs-nav}}
+  {{outlet}}
+</div>
 {{/each}}
 </div>
 {{outlet}}
