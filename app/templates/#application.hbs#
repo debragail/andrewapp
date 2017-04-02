@@ -1,0 +1,34 @@
+<div class="main-icon-bar">
+      <ul>
+      {{#link-to 'menu'}}
+{{#bs-modal-simple open=modal1 title="menu" size="sm" onHidden=(action (mut modal1) false)}}
+
+{{/bs-modal-simple}}
+{{#bs-button onClick=(action (mut modal1) true)}}
+  	     <li><p>Menu</p></li>
+      {{/link-to}}
+      {{/bs-button}}
+      {{#link-to 'contact'}}
+        <li><p>Contact</p></li>
+      {{/link-to}}
+      {{#link-to 'payment'}}
+      <li><p>Payment</p></li>
+      {{/link-to}}
+      {{#link-to 'booking'}}
+      <li><p>Booking</p></li>
+      {{/link-to}}
+      </ul>
+      </div>
+
+<div class="sub-icon-bar">
+      <ul>
+      {{#link-to 'index'}}
+      <li><p>home</p></li>
+      {{/link-to}}
+      </ul>
+      </div>
+
+
+  <div class="body">
+    {{outlet}}
+</div>
