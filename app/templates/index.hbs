@@ -1,11 +1,9 @@
+<h1>homepage</h1>
 <div class="feed">
-  <h2>HOMEPAGE</h2>
-{{#each model as |item|}}
+{{#each model as |item}}
+	{{#feed-item title=item.title}}
 	{{item.body}}
-      <span>Who:</span> {{item.who}}
-      <span>What:</span> {{item.what}}
-      <span>When:</span> {{item.when}}
-      <span>Desc:</span> {{item.desc}}
-{{/each}}
+	{{/feed-item}}
+{{/each}} 
 </div>
 {{outlet}}

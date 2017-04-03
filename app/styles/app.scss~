@@ -53,7 +53,7 @@ li {
 
 .item {
       width: 100%;
-      padding: 50px;
+      padding: 200px;
 }
 .item img{
     display: block;
@@ -104,7 +104,9 @@ li {
           list-style-image: url('https://dl.airtable.com/rzcmcevQS6eMztp3Ij4p_small_square_default.png');
 }
 
-.sub-icon-bar li {
+.sub-icon-bar li p{
+	      visibility: hidden;
+	      display: none;
 }
 
 .sub-icon-bar a:hover {
