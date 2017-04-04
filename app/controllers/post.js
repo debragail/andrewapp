@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Controller.extend({
-	needs: ['application'],
+	needs: ['application'],    
 	    recentPosts: Ember.computed.alias('controllers.application.model'),
 	    previousPost: Ember.computed('model', 'recentPosts.@each', function() {
 		    var recentPosts, index;
@@ -15,4 +15,4 @@ export default Ember.Controller.extend({
 		    index = recentPosts.indexOf(this.get('model'));
 		    return recentPosts.objectAt(index + 1);
 		})
-});
+	   });
