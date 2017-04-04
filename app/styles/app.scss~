@@ -61,6 +61,16 @@ li {
     margin-right: auto
 }
 
+//MENU
+
+.menu {
+
+}
+
+.menu li {
+      display: inline;
+}
+
 //CONTACT
 
 .contact {
