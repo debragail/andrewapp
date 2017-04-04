@@ -1,5 +1,5 @@
 <article class="feed-item">
 	 <h1>{{title}}</h1>
-	 <p>{{yeild</p>
+	 <p>{{yeild}}</p>
 </article>
 {{yield}}

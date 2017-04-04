@@ -1,8 +1,7 @@
+<h1>homepage</h1>
 <div class="feed">
 {{#each model as |item}}
-	{{#feed-item title=item.title}}
-	{{item.body}}
-	{{/feed-item}}
+	<p>whatever</p>
 {{/each}} 
 </div>
 {{outlet}}
