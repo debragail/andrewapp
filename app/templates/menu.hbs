@@ -1,23 +1,36 @@
 <a href="/"><img src="https://dl.airtable.com/RAx76fDRA6hk0q7Ppcsv_large_ANDREW%20STRASSER%20LOGO.svg"></a>
 <div class="container">
   <div class="menu">
-<ul>
-      {{#link-to 'who'}}
-      <li><h1>Who</h1></li>
-      {{/link-to}}
-
-      {{#link-to 'what'}}
-      <li><h1>What</h1></li>
-      {{/link-to}}
-
-      {{#link-to 'when'}}
-      <li><h1>When</h1></li>
-      {{/link-to}}
-
-      {{#link-to 'test'}}
-      <li><h1>test</h1></li>
-      {{/link-to}}
-</ul>
+       <ul>
+	<li>
+	<ul>     
+ 	{{#link-to 'who'}}
+    	<li><h1>Who</h1></li>
+      	{{/link-to}}
+	</ul>
+	</li>
+	<li>
+	<ul>
+      	{{#link-to 'what'}}
+      	<li><h1>What</h1></li>
+      	{{/link-to}}
+	</ul>
+	</li>
+	<li>
+	<ul>
+      	{{#link-to 'when'}}
+      	<li><h1>When</h1></li>
+      	{{/link-to}}
+	</ul>
+	</li>
+	<li>
+	<ul>
+      	{{#link-to 'test'}}
+      	<li><h1>test</h1></li>
+      	{{/link-to}}
+	</ul>
+	</li>
+	</ul>
   </div>
 </div>
 {{outlet}}

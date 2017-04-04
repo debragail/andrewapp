@@ -2,21 +2,35 @@
 <div class="container">
   <div class="menu">
 <ul>
-      {{#link-to 'who'}}
-      <li><h1>Who</h1></li>
+<li>
+<ul>     
+ {{#link-to 'who'}}
+     
+ <li><h1>Who</h1>/li>
       {{/link-to}}
-
+</ul>
+</li>
+<li>
+<ul>
       {{#link-to 'what'}}
-      <li>h1>What</h1></li>
+      <li><h1>What</h1></li>
       {{/link-to}}
-
+</ul>
+</li>
+<li>
+<ul>
       {{#link-to 'when'}}
       <li><h1>When</h1></li>
       {{/link-to}}
-
+</ul>
+</li>
+<li>
+<ul>
       {{#link-to 'test'}}
       <li><h1>test</h1></li>
       {{/link-to}}
+</ul>
+</li>
 </ul>
   </div>
 </div>
