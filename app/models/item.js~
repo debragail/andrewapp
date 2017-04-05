@@ -12,10 +12,16 @@ export default DS.Model.extend({
 	}
 	*/  
 	    
-	    // static
+	/* static
 
 	    who: DS.attr('string'),
 	    desc: DS.attr('string'),
 	    when: DS.attr('date'),
 	    what: DS.attr('string'),
+
+	*/
+
+	// readOnly option
+
+	formula: DS.attr('string', { readOnly: true })
 });
