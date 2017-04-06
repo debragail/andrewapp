@@ -58,17 +58,25 @@ li {
 .item img{
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
 //MENU
 
-.menu {
-
+.menu ul{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .menu li {
       display: inline;
+      float: left;
+      @media screen and (max-width: $break-small) {
+      display: inline;
+      float: center;
+}
 }
 
 //CONTACT
