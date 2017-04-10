@@ -23,7 +23,6 @@ export default DS.Model.extend({
 			group: group
 			    }
 		}
-		});
     }
 		/*
 		  who: DS.attr(),
