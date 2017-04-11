@@ -5,7 +5,7 @@ let test = [{
 	when: '2012',
 	what: 'lighting and photography',
 	desc: ' blah blah blah blah blah blah blah blah blah blah blah',
-	media: 'https://dl.airtable.com/OCyEE0Q2KFEVEh6ARuAQ_14.jpg'
+	media: '"https://dl.airtable.com/O2gR19UETd6OIUqDOO5D_large_14.jpg'
 }];
 	
 export default Ember.Route.extend({

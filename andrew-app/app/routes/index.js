@@ -29,7 +29,4 @@ let item_list = [{
     }];
 */
 export default Ember.Route.extend({
-	model() {
- 
-	}
     });

@@ -1,0 +1,132 @@
+@import "ember-bootstrap/bootstrap";
+
+@font-face {
+    font-family: 'antoniolight';
+    src: url('../fonts/antonio/antonio-light-webfont.eot');
+    src: url('../fonts/antonio/antonio-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/antonio/antonio-light-webfont.woff2') format('woff2'),
+         url('../fonts/antonio/antonio-light-webfont.woff') format('woff'),
+         url('../fonts/antonio/antonio-light-webfont.ttf') format('truetype'),
+         url('../fonts/antonio/antonio-light-webfont.svg#antoniolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+
+.center {
+    position: relative;
+}
+
+.center p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul {
+   }
+
+li {
+   }
+
+//ITEM
+
+.item {
+      width: 100%;
+      padding: 100px;
+}
+.item img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+//MENU
+
+.menu ul{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu li {
+      display: inline;
+      float: left;
+      @media screen and (max-width: 300px) {
+      display: inline;
+      float: center;
+}
+}
+
+//CONTACT
+
+.contact {
+	 text-align: left;
+}
+
+// PAYMENT
+
+.payment {
+	 text-align: left;
+}
+
+//RIGHT NAV
+
+.main-icon-bar {
+	  text-align: right;
+	  float: right;
+}
+
+.main-icon-bar ul {
+          list-style-image: url('https://dl.airtable.com/rzcmcevQS6eMztp3Ij4p_small_square_default.png');
+}
+
+.main-icon-bar li p {
+	       visiblity: hidden;
+	       display: none;
+}
+
+.main-icon-bar a:hover {
+
+}
+
+//LEFT NAV
+
+.sub-icon-bar {
+          text-align: left;
+          float: left;
+}
+
+.sub-icon-bar ul {
+          list-style-image: url('https://dl.airtable.com/rzcmcevQS6eMztp3Ij4p_small_square_default.png');
+}
+
+.sub-icon-bar li p{
+	      visibility: hidden;
+	      display: none;
+}
+
+.sub-icon-bar a:hover {
+
+}

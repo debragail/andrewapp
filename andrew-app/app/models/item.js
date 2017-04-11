@@ -1,6 +1,9 @@
 import DS from 'ember-data';
 
 export default DS.Model.extend({
+
+	api: Ember.inject.service(),
+
 	/*
 	  
 	  //QUERY
@@ -12,10 +15,22 @@ export default DS.Model.extend({
 	}
 	*/  
 	    
-	    // static
+	    hasGroup(group){
+	    return this.get('api').request('assignGroup'),{
+		    
+		    model: 'item',
+			params: {
+			group: group
+			    }
+		}
+    }
+		/*
+		  who: DS.attr(),
+		  desc: DS.attr(),
+		  when: DS.attr(),
+		  what: DS.attr(),
+		*/
+	// readOnly option
 
-	    who: DS.attr('string'),
-	    desc: DS.attr('string'),
-	    when: DS.attr('date'),
-	    what: DS.attr('string'),
+	//formula: DS.attr('string', { readOnly: true })
 });
