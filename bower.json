@@ -1,0 +1,19 @@
+{
+  "name": "airtable-sort",
+  "description": "A sample Node.js app using Express 4",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
