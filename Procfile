@@ -1,1 +1,1 @@
-web: node airtable-proxy.js
+web: node airtable-sort.js

@@ -2,7 +2,7 @@
   "name": "airtable-sort",
   "version": "1.0.0",
   "description": "json sorter",
-  "main": "airtable-proxy.js",
+  "main": "airtable-sort.js",
   "dependencies": {
     "airtable": "^0.4.5",
     "bootstrap": "^3.3.7",
