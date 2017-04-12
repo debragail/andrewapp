@@ -1,6 +1,6 @@
 {
   "name": "airtable-sort",
-  "version": "0.2.5",
+  "version": "3.10.0",
   "description": "A sample Node.js app using Express 4",
   "engines": {
     "node": "5.9.1"
@@ -35,5 +35,5 @@
     "url": "https://github.com/heroku/node-js-getting-started/issues"
   },
   "homepage": "https://github.com/heroku/node-js-getting-started#readme",
-  "author": ""
+  "author": "d3b"
 }
