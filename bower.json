@@ -1,7 +1,7 @@
 {
   "name": "airtable-sort",
-  "description": "A sample Node.js app using Express 4",
-  "main": "index.js",
+  "description": "JSON API sort server",
+  "main": "airtable-sort.js",
   "license": "MIT",
   "keywords": [
     "node",
