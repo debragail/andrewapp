@@ -1,4 +1,7 @@
 <div class="item">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FnlxPUt7DHk?ecver=1" frameborder="0" allowfullscreen></iframe>
+</div>
+<div class="item">
 {{#each model as |item|}}
   <article class="item">
     <img class="item" src="https://dl.airtable.com/O2gR19UETd6OIUqDOO5D_large_14.jpg">
