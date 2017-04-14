@@ -151,9 +151,11 @@ li {
 
 .item {
       width: 100%;
-      padding: 100px;
-
+      padding: 50px;
+      border: 1px solid black;
+      margin: 0 auto;
 }
+
 .item img{
     display: block;
     margin-left: auto;
