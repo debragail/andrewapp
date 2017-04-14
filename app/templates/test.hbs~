@@ -1,10 +1,91 @@
-<div class="item">
-<iframe width="853" height="480" src="https://www.youtube.com/embed/FnlxPUt7DHk?ecver=1" frameborder="0" allowfullscreen></iframe>
+<div class="feed">
+<div class="row" style="min-height:300px;">
+    <div  class="col-sm-6">
+        <h3>Left Tabs</h3>
+        <hr/>
+        <div class="col-xs-3">
+            <!-- required for floating -->
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs tabs-left">
+                <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+                <li><a href="#profile" data-toggle="tab">Profile</a></li>
+                <li><a href="#messages" data-toggle="tab">Messages</a></li>
+                <li><a href="#settings" data-toggle="tab">Settings</a></li>
+            </ul>
+        </div>
+        <div class="col-xs-9">
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane active" id="home">Home Tab.</div>
+                <div class="tab-pane" id="profile">Profile Tab.</div>
+                <div class="tab-pane" id="messages">Messages Tab.</div>
+                <div class="tab-pane" id="settings">Settings Tab.</div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div  class="col-sm-6">
+        <h3>Right Tabs</h3>
+        <hr/>
+        <div class="col-xs-9">
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane active" id="home-r">Home Tab.</div>
+                <div class="tab-pane" id="profile-r">Profile Tab.</div>
+                <div class="tab-pane" id="messages-r">Messages Tab.</div>
+                <div class="tab-pane" id="settings-r">Settings Tab.</div>
+            </div>
+        </div>
+        <div class="col-xs-3">
+            <!-- required for floating -->
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs tabs-right">
+                <li class="active"><a href="#home-r" data-toggle="tab">Home</a></li>
+                <li><a href="#profile-r" data-toggle="tab">Profile</a></li>
+                <li><a href="#messages-r" data-toggle="tab">Messages</a></li>
+                <li><a href="#settings-r" data-toggle="tab">Settings</a></li>
+            </ul>
+        </div>
+    </div>
 </div>
+<div class="clearfix"></div>
+
 <div class="item">
 {{#each model as |item|}}
-<article class="item">
-<img class="item" src="https://dl.airtable.com/OCyEE0Q2KFEVEh6ARuAQ_14.jpg">
+  <article class="item">
+<iframe width="853" height="480" src="https://www.youtube.com/embed/FnlxPUt7DHk?ecver=1" frameborder="0" allowfullscreen></iframe>
+  </article>
+ {{/each}}
+<div class="tabs">
+{{#bs-tab as |tab|}}
+  {{#tab.pane title="+"}}
+    <p>Sed ut persp sdfhjal asjkdfhkasjd fkjashdfkjas akjsdfhjkasf kjadhf akj ajkdfhakjh ads a asdhfkjk</p>
+ <div class="detail who">
+    {{item.who}}
+    </div>
+    <div class="detail what">
+    {{item.what}}
+    </div>
+    <div class="detail when">
+    {{item.when}}
+    </div>
+    <div class="detail desc">
+    {{item.desc}}
+</div>
+{{/tab.pane}}
+{{#if hasGroup}}
+{{#tab.pane title="Group"}}
+    <p>At vero eos et accusamus</p>
+{{/tab.pane}}
+{{/if}}
+{{/bs-tab}}
+</div>
+</div>
+
+<div class="item">
+{{#each model as |item|}}
+  <article class="item">
+<iframe width="853" height="480" src="https://www.youtube.com/embed/FnlxPUt7DHk?ecver=1" frameborder="0" allowfullscreen></iframe>
  <div class="detail who">
     {{item.who}}
     </div>
@@ -21,14 +102,20 @@
  {{/each}}
 {{#bs-tab as |tab|}}
   {{#tab.pane title="Description"}}
-<p> hello hello is there anybody in there out there where am i omg space mushroom lksdjfklsdjfklsjfksljflksjklsdjflksd</p>
+    <p>Sed ut perspiciatis unde omnis</p>
 {{/tab.pane}}
+{{#if hasGroup}}
+{{#tab.pane title="Group"}}
+    <p>At vero eos et accusamus</p>
+{{/tab.pane}}
+{{/if}}
 {{/bs-tab}}
 </div>
+
 <div class="item">
 {{#each model as |item|}}
   <article class="item">
-    <img class="item" src="https://dl.airtable.com/O2gR19UETd6OIUqDOO5D_large_14.jpg">
+    <img class="item" src="https://dl.airtable.com/6fxl2UBYR0G0s36qjfzB_12.jpg">
     <div class="detail who">
     {{item.who}}
     </div>
@@ -53,5 +140,56 @@
   {{/tab.pane}}
 {{/if}}
 {{/bs-tab}}
+</div>
+
+<div class="item">
+{{#each model as |item|}}
+  <article class="item">
+    <img class="item" src="https://dl.airtable.com/6fxl2UBYR0G0s36qjfzB_12.jpg">
+    <div class="detail who">
+    {{item.who}}
+    </div>
+    <div class="detail what">
+    {{item.what}}
+    </div>
+    <div class="detail when">
+    {{item.when}}
+    </div>
+    <div class="detail desc">
+    {{item.desc}}
+    </div>
+  </article>
+ {{/each}}
+{{#bs-tab as |tab|}}
+  {{#tab.pane title="Description"}}
+    <p>Sed ut perspendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+  {{/tab.pane}}
+{{/bs-tab}}
+</div>
+
+<div class="item">
+{{#each model as |item|}}
+  <article class="item">
+    <img class="item" src="https://dl.airtable.com/OCyEE0Q2KFEVEh6ARuAQ_14.jpg">
+    <div class="detail who">
+    {{item.who}}
+    </div>
+    <div class="detail what">
+    {{item.what}}
+    </div>
+    <div class="detail when">
+    {{item.when}}
+    </div>
+    <div class="detail desc">
+    {{item.desc}}
+    </div>
+  </article>
+ {{/each}}
+{{#bs-tab as |tab|}}
+  {{#tab.pane title="Description"}}
+    <p>Sed ut perspendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+  {{/tab.pane}}
+{{/bs-tab}}
+</div>
 </div>
 {{outlet}}
