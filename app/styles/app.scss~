@@ -139,10 +139,10 @@ li {
 
 //FEED
 
-.feed {
-      width: auto;
-      position: relative;
-      float: right;
+.feed { 
+      width: 50%;
+      border: 1px solid gray;
+      margin: 0 auto;
 }
 
 //ITEM
