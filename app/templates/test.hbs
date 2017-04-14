@@ -2,8 +2,10 @@
 <div class="item">
 {{#each model as |item|}}
   <article class="item">
-<iframe width="853" height="480" src="https://www.youtube.com/embed/FnlxPUt7DHk?ecver=1" frameborder="0" allowfullscreen></iframe>
-  </article>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/FnlxPUt7DHk?ecver=1" frameborder="0" allowfullscreen></iframe>
+</div>  
+</article>
  {{/each}}
 <div class="tabs">
 {{#bs-tab as |tab|}}
