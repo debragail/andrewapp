@@ -1,5 +1,39 @@
 <div class="feed">
 <div class="item">
+     	  {{#each model as |item|}}
+  	  <article class="item">
+  	  	   <div class="video-container">
+  		   <iframe src="https://www.youtube.com/embed/FnlxPUt7DHk?ecver=1" frameborder="0" allowfullscreen></iframe>
+  		   </div>  
+		<div class="tabs">
+{{#bs-tab as |tab|}}
+  {{#tab.pane title="+"}}
+    <div class="detail who">
+    {{item.who}}
+    </div>
+    <div class="detail what">
+    {{item.what}}
+    </div>
+    <div class="detail when">
+    {{item.when}}
+    </div>
+    <div class="detail desc">
+    {{item.desc}}
+    </div>
+</div>
+</article>
+</each>
+
+{{/tab.pane}}
+{{#if hasGroup}}
+{{#tab.pane title="Group"}}
+    <p>At vero eos et accusamus</p>
+{{/tab.pane}}
+{{/if}}
+{{/bs-tab}}
+</div>
+
+<div class="item">
 {{#each model as |item|}}
   <article class="item">
     <img class="item" src="https://dl.airtable.com/6fxl2UBYR0G0s36qjfzB_12.jpg">

@@ -46,7 +46,7 @@ img {
 //FEED
 
 .feed { 
-      width: 55%;
+      width: 75%;
       border: 5px solid green;
       margin: 0 auto;
 }
