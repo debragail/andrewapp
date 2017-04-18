@@ -28,5 +28,5 @@
 {{/if}}
 {{/bs-tab}}
 </div>
-<div>
+</div>
 {{outlet}}
