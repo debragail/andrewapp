@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "airtable-sort",
   "description": "JSON API sort server",
   "main": "airtable-sort.js",
@@ -9,6 +10,15 @@
     "express"
   ],
   "homepage": "",
+=======
+  "name": "andrew-app",
+  "dependencies": {},
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+>>>>>>> 8e3d07d2cdbe644567f5f953a573842ad31731ae
   "ignore": [
     "**/.*",
     "node_modules",

@@ -1,0 +1,23 @@
+<div class="contact">
+  <h2>Contact</h2>
+  <p>Use the form or email or call</p>
+  <p>
+    Andrew Strasser
+    <address>
+      1212 Test Address Avenue<br>
+      Brazil
+    </address>
+    <a href="tel:503.555.1212">+1 (555) 555-1212</a><br>
+    <a href="mailto:andrew@andrewstrasser.com">andrew@andrewstrasser.com</a>
+  </p>
+{{#bs-form model=this onSubmit=(action "submit") as |form|}}
+  {{#form.element label="Email" placeholder="Email" property="username" as |el|}}
+    <div class="input-group">
+      <input value={{el.value}} class="form-control" oninput={{action (mut el.value) value="target.value"}} onchange={{action (mut el.value) value="target.value"}} id={{el.id}} type="text">
+      <span class="input-group-addon">@example.com</span>
+    </div>
+  {{/form.element}}
+  {{bs-button defaultText="Submit" type="primary" buttonType="submit"}}
+{{/bs-form}}
+</div>
+{{outlet}}

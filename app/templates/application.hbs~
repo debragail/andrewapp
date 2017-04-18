@@ -1,0 +1,29 @@
+<div class="main-icon-bar">
+      <ul>
+      {{#link-to 'menu'}}
+        <li><p>Menu</p></li>
+      {{/link-to}}
+      {{#link-to 'contact'}}
+        <li><p>Contact</p></li>
+      {{/link-to}}
+      {{#link-to 'payment'}}
+      <li><p>Payment</p></li>
+      {{/link-to}}
+      {{#link-to 'booking'}}
+      <li><p>Booking</p></li>
+      {{/link-to}}
+      </ul>
+      </div>
+
+<div class="sub-icon-bar">
+      <ul>
+      {{#link-to 'index'}}
+      <li>home</li>
+      {{/link-to}}
+      </ul>
+      </div>
+
+
+  <div class="body">
+    {{outlet}}
+</div>

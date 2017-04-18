@@ -1,0 +1,7 @@
+<h1>homepage</h1>
+<div class="feed">
+{{#each model as |item}}
+	<p>whatever</p>
+{{/each}} 
+</div>
+{{outlet}}
