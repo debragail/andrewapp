@@ -5,10 +5,8 @@
   "license": "MIT",
   "author": "",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
@@ -54,5 +52,6 @@
   "private": true,
   "dependencies": {
     "ember-responsive": "^2.0.2"
-  }
+  },
+  "main": "ember-cli-build.js"
 }

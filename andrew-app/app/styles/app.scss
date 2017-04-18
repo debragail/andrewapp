@@ -27,7 +27,7 @@ body {
 img {
     display: block;
     margin: auto;
-    width: 40%;
+    width: 25%;
 }
 
 
@@ -43,22 +43,51 @@ img {
     transform: translate(-50%, -50%);
 }
 
-ul {
-   }
+//FEED
 
-li {
-   }
+.feed { 
+      width: 75%;
+      border: 5px solid green;
+      margin: 0 auto;
+      background: blue;
+}
 
 //ITEM
 
 .item {
       width: 100%;
-      padding: 100px;
+      padding: 5px;
+      border: 1px solid red;
+      margin: 0 auto;
+      position: relative;
+      float: left;
 }
+
 .item img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+//BUTTON
+
+
+//YOUTUBE CONTAINER
+
+.video-container {
+		 position:relative;
+		 padding-bottom:56.25%;
+		 padding-top:30px;
+		 height:0;
+		 overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+		 position:absolute;
+		 top:0;
+		 left:0;
+		 width:100%;
+		 height:100%;
 }
 
 //MENU
