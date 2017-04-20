@@ -30,7 +30,7 @@
 	<ul>
 	<h1>test</h1>
       	{{#link-to 'test'}}
-      	<li><p>test</p</li>
+      	<li><p>test</p></li>
       	{{/link-to}}
 	</ul>
 	</li>
