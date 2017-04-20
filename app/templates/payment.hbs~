@@ -86,5 +86,6 @@
         </fieldset>
       </form>
     </div>
+<img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_200x51.png" alt="PayPal" />
 </div>
 {{outlet}}

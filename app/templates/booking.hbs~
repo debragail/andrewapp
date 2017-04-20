@@ -1,4 +1,3 @@
-<!-- Start Square Appointments Embed Code --><script src='https://squareup.com/appointments/buyer/wid\
-get/e71476d4-f626-4683-8b7f-602021a932ea/52Q0EB0F9X3RV.js'></script><!-- End Square Appointments Embe\
-dCode -->
+<p>test</p>
+<!-- Start Square Appointments Embed Code --><script src='https://squareup.com/appointments/buyer/widget/e71476d4-f626-4683-8b7f-602021a932ea/52Q0EB0F9X3RV.js'></script><!-- End Square Appointments EmbedCode -->
 {{outlet}}
