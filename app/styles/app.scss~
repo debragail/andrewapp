@@ -69,7 +69,20 @@ img {
     margin-right: auto;
 }
 
-//BUTTON
+//BUBBLE
+
+.bubble {
+    height: 75%;
+    width: 75%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
 
 
 //YOUTUBE CONTAINER
@@ -91,6 +104,10 @@ img {
 }
 
 //MENU
+
+.menu {
+
+}
 
 .menu ul{
     text-align: center;

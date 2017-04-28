@@ -72,10 +72,16 @@ img {
 //BUBBLE
 
 .bubble {
-      width: 75%;
-      border: 5px solid green;
-      margin: 0 auto;
-      background: blue;
+    height: 75%;
+    width: 75%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-color: rgb(50,50,50);
+    background-color: rgba(50,50,50, 0.5);
+    overflow-x: hidden;
+    transition: 0.5s;
 }
 
 
@@ -98,6 +104,10 @@ img {
 }
 
 //MENU
+
+.menu {
+
+}
 
 .menu ul{
     text-align: center;
