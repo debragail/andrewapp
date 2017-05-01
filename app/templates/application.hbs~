@@ -18,7 +18,7 @@
 <div class="sub-icon-bar">
       <ul>
       {{#link-to 'index'}}
-      <li>home</li>
+      <li><p>home</p></li>
       {{/link-to}}
       </ul>
       </div>
