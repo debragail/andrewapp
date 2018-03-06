@@ -2,7 +2,7 @@ var express = require('express');
 var proxy = require('http-proxy-middleware');
 var options = {
     logLevel: 'debug',
-    target: 'https://api.airtable.com/v0/' + process.env.appJKocZsUWpTuPv1,
+    target: 'https://api.airtable.com/' + process.env.appJKocZsUWpTuPv1,
     changeOrigin: true,
     headers: {
 	'Accept': 'application/json',
