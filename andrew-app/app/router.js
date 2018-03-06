@@ -25,6 +25,7 @@ Router.map(function() {
   this.route('menu');
   this.route('test');
   this.route('item');
+  this.route('bubble');
 });
 
 export default Router;
