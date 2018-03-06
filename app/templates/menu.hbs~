@@ -1,6 +1,6 @@
+<div class="bubble">
 <a href="/"><img src="https://dl.airtable.com/RAx76fDRA6hk0q7Ppcsv_large_ANDREW%20STRASSER%20LOGO.svg"></a>
-<div class="container">
-  <div class="menu">
+<a href="/"><img src="https://dl.airtable.com/RAx76fDRA6hk0q7Ppcsv_large_ANDREW%20STRASSER%20LOGO.svg"></a>
        <ul>
 	<li>
 	<ul>
@@ -34,7 +34,14 @@
       	{{/link-to}}
 	</ul>
 	</li>
+	<li>
+        <ul>
+        <h1>bubble</h1>
+        {{#link-to 'bubble'}}
+        <li><p>bubble</p></li>
+        {{/link-to}}
+        </ul>
+        </li>
 	</ul>
-  </div>
 </div>
 {{outlet}}

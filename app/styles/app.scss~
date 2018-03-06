@@ -43,12 +43,33 @@ img {
     transform: translate(-50%, -50%);
 }
 
+//SEARCHBAR
+.add-on .input-group-btn > .btn {
+  border-left-width:0;left:-2px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+/* stop the glowing blue shadow */
+.add-on .form-control:focus {
+ box-shadow:none;
+ -webkit-box-shadow:none; 
+ border-color:#cccccc; 
+}
+.form-control{width:20%}
+.navbar-nav > li > a {
+  border-right: 1px solid #ddd;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.navbar-nav:last-child{ border-right:0}
+
 //FEED
 
 .feed { 
       width: 75%;
       border: 5px solid green;
       margin: 0 auto;
+      background: blue;
 }
 
 //ITEM
@@ -68,8 +89,27 @@ img {
     margin-right: auto;
 }
 
-//BUTTON
+//BUBBLE
 
+.bubble {
+    height: 75%;
+    width: 75%;
+    position: relative;
+    z-index: -1;
+    background-color: rgb(50,50,50);
+    background-color: rgba(50,50,50, 0.5);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
 
 //YOUTUBE CONTAINER
 
@@ -91,9 +131,14 @@ img {
 
 //MENU
 
+.menu {
+
+}
+
 .menu ul{
     text-align: center;
-    display: block;
+    display: absolute;
+    float: left;
     margin-left: auto;
     margin-right: auto;
 }
