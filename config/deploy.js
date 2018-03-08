@@ -5,6 +5,19 @@ module.exports = function(deployTarget) {
   let ENV = {
     build: {}
     // include other plugin configuration that applies to all deploy targets here
+    ENV['s3'] = {
+	accessKeyId: process.env.AKIAJRH65YPXEUENX52A,
+	secretAccessKey: process.env.N7l7IeYfBPdtPwnOAYgya+DqDJUwBjcLh5IVHE8A,
+	bucket: 'andrew-app',
+	region: 'us-west-1'
+    };
+
+    ENV['s3-index'] = {
+	accessKeyId: process.env.AKIAJRH65YPXEUENX52A,
+	secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+	bucket: 'andrew-app-index',
+	region: 'us-west-1'
+    };
   };
 
   if (deployTarget === 'development') {
