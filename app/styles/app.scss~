@@ -137,8 +137,10 @@ img {
 
 .menu ul{
     text-align: center;
-    display: absolute;
+    display: block;
+    position: relative;
     float: left;
+    list-style: none;
     margin-left: auto;
     margin-right: auto;
 }
@@ -202,4 +204,24 @@ img {
 
 .sub-icon-bar a:hover {
 
+}
+
+//SQUARE MENU
+
+.menu-container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.square {
+    width: 15px;
+    height: 15px;
+    background-color: #fffff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .square {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
 }

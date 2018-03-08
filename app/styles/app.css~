@@ -62,7 +62,6 @@ li {
 //NAV
 
 .icon-bar {
-    width: 50px;
 }
 
 .icon-bar ul {
