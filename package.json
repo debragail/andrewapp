@@ -25,8 +25,4 @@
     "url": "https://github.com/elastic/elasticsearch/issues"
   },
   "homepage": "https://github.com/elastic/elasticsearch#readme"
-},
-"engines": {
-    "node": "> 4"
-},
 }
