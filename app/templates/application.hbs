@@ -24,17 +24,19 @@
 </div>
 </div>																																											         </div>
 </div>
+
 <div class="container" onclick="myMenu(this)">
-<div class="square">
-<ul>
- {{#link-to 'menu'}}
- <li><p>Menu</p></li>
-      {{/link-to}}
- </li>
-</ul>
+  <div class="square">
+   <ul>
+   {{#link-to 'menu'}}
+     <li><p>Menu</p></li>
+       {{/link-to}}
+     </li>
+   </ul>
+  </div>
 </div>
 
-/*<div class="main-icon-bar">
+{{!-- <div class="main-icon-bar">
       <ul>
       {{#link-to 'menu'}}
         <li><p>Menu</p></li>
@@ -58,7 +60,7 @@
       {{/link-to}}
       </ul>
       </div>
-*/
+--}}
 
   <div class="body">
     {{outlet}}
