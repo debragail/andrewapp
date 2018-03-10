@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "bower": "^1.8.2",
+    "ember-cli-deploy-build": "^1.1.1",
     "loader.js": "^4.6.0"
   },
   "repository": {
