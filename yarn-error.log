@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/0PHE1IA/.nvm/versions/node/v6.10.0/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js install bower
+  /Users/0PHE1IA/.nvm/versions/node/v6.10.0/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js add ember-cli-build
 
 PATH: 
   /Users/0PHE1IA/.nvm/versions/node/v6.10.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -4216,10 +4216,11 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/yeast/-/yeast-0.1.2.tgz#008e06d8094320c372dbc2f8ed76a0ca6c8ac419"
 
 Trace: 
-  Error: `install` has been replaced with `add` to add new dependencies. Run "yarn add bower" instead.
+  Error: Couldn't find package "ember-cli-build" on the "npm" registry.
       at MessageError.Error (native)
       at new MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
-      at Object.<anonymous> (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:21987:13)
+      at NpmResolver.<anonymous> (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:51625:15)
       at next (native)
       at step (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:98:30)
       at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:109:13
+      at process._tickCallback (internal/process/next_tick.js:103:7)
