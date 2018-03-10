@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/0PHE1IA/.nvm/versions/node/v6.10.0/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js remove ember-cli-deploy
+  /Users/0PHE1IA/.nvm/versions/node/v6.10.0/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js install bower
 
 PATH: 
   /Users/0PHE1IA/.nvm/versions/node/v6.10.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -31,6 +31,7 @@ npm manifest:
       "ember-cli": "^3.0.0"
     },
     "devDependencies": {
+      "bower": "^1.8.2",
       "loader.js": "^4.6.0"
     },
     "repository": {
@@ -496,6 +497,10 @@ Lockfile:
   bower-endpoint-parser@0.2.2:
     version "0.2.2"
     resolved "https://registry.yarnpkg.com/bower-endpoint-parser/-/bower-endpoint-parser-0.2.2.tgz#00b565adbfab6f2d35addde977e97962acbcb3f6"
+  
+  bower@^1.8.2:
+    version "1.8.2"
+    resolved "https://registry.yarnpkg.com/bower/-/bower-1.8.2.tgz#adf53529c8d4af02ef24fb8d5341c1419d33e2f7"
   
   brace-expansion@^1.1.7:
     version "1.1.11"
@@ -4211,10 +4216,10 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/yeast/-/yeast-0.1.2.tgz#008e06d8094320c372dbc2f8ed76a0ca6c8ac419"
 
 Trace: 
-  Error: This module isn't specified in a manifest.
+  Error: `install` has been replaced with `add` to add new dependencies. Run "yarn add bower" instead.
       at MessageError.Error (native)
       at new MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
-      at Object.<anonymous> (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:60445:15)
+      at Object.<anonymous> (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:21987:13)
       at next (native)
       at step (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:98:30)
       at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:109:13
