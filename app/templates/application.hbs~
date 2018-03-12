@@ -23,7 +23,6 @@
 </div>
 </div>
 </div>																																											         </div>
-<p>search bar</p>
 </div>
 <div class="main-icon-bar">
       <ul>
@@ -42,7 +41,7 @@
       </ul>
       </div>
 
-<div class="sub-icon-bar">
+<div class="menu-container">
       <ul>
       {{#link-to 'index'}}
       <li><p>home</p></li>

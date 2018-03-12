@@ -205,3 +205,26 @@ img {
 .sub-icon-bar a:hover {
 
 }
+
+//SQUARE MENU
+
+.menu-container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.square {
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    margin: 1px 0;
+    transition: 0.4s;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.change .square {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
