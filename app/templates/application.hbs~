@@ -43,9 +43,11 @@
 
 <div class="menu-container">
       <ul>
+     <div class="square">
       {{#link-to 'index'}}
       <li><p>home</p></li>
       {{/link-to}}
+      </div>
       </ul>
       </div>
 

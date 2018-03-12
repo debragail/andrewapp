@@ -10,9 +10,6 @@ module.exports = function(defaults) {
       'importBootstrapCSS': false
     }
   });
-
-  app.import('vendor/css.js');
-
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //
