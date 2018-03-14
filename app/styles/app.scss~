@@ -184,6 +184,46 @@ img {
 	 text-align: left;
 }
 
+//RIGHT NAV
+
+.main-icon-bar {
+	  text-align: right;
+	  float: right;
+}
+
+.main-icon-bar ul {
+          list-style-image: url('https://dl.airtable.com/rzcmcevQS6eMztp3Ij4p_small_square_default.png');
+}
+
+.main-icon-bar li p {
+	       visiblity: hidden;
+	       display: none;
+}
+
+.main-icon-bar a:hover {
+
+}
+
+//LEFT NAV
+
+.sub-icon-bar {
+          text-align: left;
+          float: left;
+}
+
+.sub-icon-bar ul {
+          list-style-image: url('https://dl.airtable.com/rzcmcevQS6eMztp3Ij4p_small_square_default.png');
+}
+
+.sub-icon-bar li p{
+	      visibility: hidden;
+	      display: none;
+}
+
+.sub-icon-bar a:hover {
+
+}
+
 //SQUARE MENU
 
 .menu-container-left {
