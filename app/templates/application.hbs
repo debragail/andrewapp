@@ -14,24 +14,24 @@
   </div>																									
 </div>
 </div>
-<div class="menu-container-right" onclick="myMenu(this)">
+<div class="menu-container-right">
       <ul>
-      <div class="square">
+      <div class="square" onclick="navSquare(this)">
       {{#link-to 'menu'}}
         <li><p>Menu</p></li>
       {{/link-to}}
       </div>
-      <div class="square">
+      <div class="square" onclick="navSquare(this)">
       {{#link-to 'contact'}}
         <li><p>Contact</p></li>
       {{/link-to}}
       </div>
-      <div class="square">
+      <div class="square" onclick="navSquare(this)">
       {{#link-to 'payment'}}
       <li><p>Payment</p></li>
       {{/link-to}}
       </div>
-      <div class="square">
+      <div class="square" onclick="navSquare(this)">
       {{#link-to 'booking'}}
       <li><p>Booking</p></li>
       {{/link-to}}
@@ -39,9 +39,9 @@
       </ul>
       </div>
 
-<div class="menu-container-left" onclick="myMenu(this)">
+<div class="menu-container-left">
       <ul>
-      <div class="square">
+      <div class="square" onclick="navSquare(this)">
        {{#link-to 'index'}}
         <li><p>home</p></li>
        {{/link-to}}
