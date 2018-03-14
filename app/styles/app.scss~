@@ -189,7 +189,6 @@ img {
 .menu-container-left {
     display: inline-block;
     float:left;
-    cursor: pointer;
 }
 
 .menu-container-left ul {
