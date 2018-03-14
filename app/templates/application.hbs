@@ -11,37 +11,35 @@
       </div>
     </div>
   </form>
-											<div class="container trending">
-															    <!-- Brand and toggle get grouped for better mobile display -->
-															    	       	   	      	      	  	 <div class="navbar-header">
-																					              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-																						      	      		    			 	    			        <span class="sr-only">Toggle navigation</span>
-																																	      			             <span class="icon-bar"></span>
-																																					     	            <span class="icon-bar"></span>
-																																							    	           <span class="icon-bar"></span>
-																																									   	         </button>
+  </div>																									
 </div>
 </div>
-</div>																																											         </div>
-</div>
-<div class="main-icon-bar">
+<div class="menu-container-right" onclick="myMenu(this)">
       <ul>
+      <div class="square">
       {{#link-to 'menu'}}
         <li><p>Menu</p></li>
       {{/link-to}}
+      </div>
+      <div class="square">
       {{#link-to 'contact'}}
         <li><p>Contact</p></li>
       {{/link-to}}
+      </div>
+      <div class="square">
       {{#link-to 'payment'}}
       <li><p>Payment</p></li>
       {{/link-to}}
+      </div>
+      <div class="square">
       {{#link-to 'booking'}}
       <li><p>Booking</p></li>
       {{/link-to}}
+      </div>
       </ul>
       </div>
 
-<div class="menu-container" onclick="myMenu(this)">
+<div class="menu-container-left" onclick="myMenu(this)">
       <ul>
       <div class="square">
        {{#link-to 'index'}}
@@ -50,7 +48,6 @@
       </div>
       </ul>
       </div>
-
 
   <div class="body">
     {{outlet}}

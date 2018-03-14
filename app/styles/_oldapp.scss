@@ -35,24 +35,6 @@ img {
     position: relative;
 }
 
-.right {
-    position: absolute;
-    right: 0px;
-    width: 100%;
-    padding: 10px;
-}
-
-.left {
-    position: absolute;
-    left: 0px;
-    width: 100%;
-    padding: 10px;
-}
-
-.clearfix {
-    overflow: auto;
-}
-
 .center p {
     margin: 0;
     position: absolute;
@@ -226,30 +208,9 @@ img {
 
 //SQUARE MENU
 
-.menu-container-left {
+.menu-container {
     display: inline-block;
     cursor: pointer;
-    float:left;
-}
-.menu-container-left ul {
-    list-style:none;
-    text-indent: -9999px;
-    display: block;
-    position: relative;
-    float: left;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.menu-container-right {
-    display: inline-block;
-    cursor: pointer;
-    float:right;
-}
-
-.menu-container-right ul {
-    list-style:none;
-    text-indent: -9999px;
 }
 
 .square {
