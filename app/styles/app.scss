@@ -188,9 +188,9 @@ img {
 
 .menu-container-left {
     display: inline-block;
-    cursor: pointer;
     float:left;
 }
+
 .menu-container-left ul {
     list-style:none;
     text-indent: -9999px;
@@ -201,6 +201,9 @@ img {
     margin-right: auto;
 }
 
+.menu-container-left ul li {
+    cursor: pointer;
+}
 .menu-container-right {
     display: inline-block;
     cursor: pointer;
@@ -212,6 +215,9 @@ img {
     text-indent: -9999px;
 }
 
+.menu-container-right ul li {
+    cursor: pointer;
+}
 .square {
     width: 15px;
     height: 15px;
