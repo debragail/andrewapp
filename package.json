@@ -52,7 +52,8 @@
   },
   "private": true,
   "dependencies": {
-    "ember-responsive": "^2.0.2"
+    "ember-responsive": "^2.0.2",
+    "square-connect": "^2.5.5"
   },
   "main": "ember-cli-build.js"
 }
