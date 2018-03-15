@@ -19,6 +19,10 @@ body {
     text-align: center;
 }
 
+li {
+   cursor: pointer;
+}
+
 .container {
     position: relative;
     width: 100%;
@@ -189,6 +193,7 @@ img {
 .menu-container-left {
     display: inline-block;
     float:left;
+    cursor: pointer;
 }
 
 .menu-container-left ul {
@@ -204,6 +209,7 @@ img {
 .menu-container-right {
     display: inline-block;
     float:right;
+    cursor: pointer;
 }
 
 .menu-container-right ul {
@@ -211,7 +217,7 @@ img {
     text-indent: -9999px;
 }
 
-.square {
+.square {	
     width: 15px;
     height: 15px;
     background-color: #ffffff;
@@ -219,11 +225,9 @@ img {
     transition: 0.4s;
     border-width: 1px;
     border-style: solid;
-    cursor: pointer;
 }
 
 .change .square {
     -webkit-transform: rotate(-111deg) translate(-9px, 6px) ;
     transform: rotate(-111deg) translate(-9px, 6px) ;
 }
-
