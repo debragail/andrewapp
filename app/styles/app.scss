@@ -222,7 +222,7 @@ img {
 .menu-container-right {
     display: inline-block;
     float:right;
-    cursor: pointer;
+    cursor:pointer;
 }
 
 .menu-container-right ul {
@@ -238,6 +238,10 @@ img {
     transition: 0.4s;
     border-width: 1px;
     border-style: solid;
+}
+
+.square-li {
+   cursor: pointer;
 }
 
 .change .square {

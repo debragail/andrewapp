@@ -222,7 +222,7 @@ img {
 .menu-container-right {
     display: inline-block;
     float:right;
-    cursor: pointer;
+    cursor:pointer;
 }
 
 .menu-container-right ul {
@@ -238,6 +238,7 @@ img {
     transition: 0.4s;
     border-width: 1px;
     border-style: solid;
+    cursor: pointer;
 }
 
 .change .square {
@@ -248,16 +249,16 @@ img {
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes mymove {
     0%   {top: 0px; left: 0px; background: red;}
-    25%  {top: 0px; left: 5px; background: blue;}
-    50%  {top: 5px; left: 5px; background: yellow;}
-    75%  {top: 5px; left: 0px; background: green;}
+    25%  {top: 0px; left: 2px; background: blue;}
+    50%  {top: 2px; left: 2px; background: yellow;}
+    75%  {top: 2px; left: 0px; background: green;}
     100% {top: 0px; left: 0px; background: red;}
 }
 
 @keyframes mymove {
     0%   {top: 0px; left: 0px; background: red;}
-    25%  {top: 0px; left: 5px; background: blue;}
-    50%  {top: 5px; left: 5px; background: yellow;}
-    75%  {top: 5px; left: 0px; background: green;}
+    25%  {top: 0px; left: 2px; background: blue;}
+    50%  {top: 2px; left: 2px; background: yellow;}
+    75%  {top: 2px; left: 0px; background: green;}
     100% {top: 0px; left: 0px; background: red;}
 }
