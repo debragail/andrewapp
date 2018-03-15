@@ -193,6 +193,20 @@ img {
 .menu-container-left {
     display: inline-block;
     float:left;
+    cursor: pointer;
+}
+
+.square:hover {
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    margin: 1px 0;
+    transition: .5s;
+    border-width: 1px;
+    border-style: solid;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 1s infinite;
 }
 
 .menu-container-left ul {
@@ -224,10 +238,26 @@ img {
     transition: 0.4s;
     border-width: 1px;
     border-style: solid;
-    cursor: pointer;
 }
 
 .change .square {
     -webkit-transform: rotate(-111deg) translate(-9px, 6px) ;
     transform: rotate(-111deg) translate(-9px, 6px) ;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    0%   {top: 0px; left: 0px; background: red;}
+    25%  {top: 0px; left: 5px; background: blue;}
+    50%  {top: 5px; left: 5px; background: yellow;}
+    75%  {top: 5px; left: 0px; background: green;}
+    100% {top: 0px; left: 0px; background: red;}
+}
+
+@keyframes mymove {
+    0%   {top: 0px; left: 0px; background: red;}
+    25%  {top: 0px; left: 5px; background: blue;}
+    50%  {top: 5px; left: 5px; background: yellow;}
+    75%  {top: 5px; left: 0px; background: green;}
+    100% {top: 0px; left: 0px; background: red;}
 }

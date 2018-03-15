@@ -196,6 +196,19 @@ img {
     cursor: pointer;
 }
 
+.square:hover {
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    margin: 1px 0;
+    transition: .5s;
+    border-width: 1px;
+    border-style: solid;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 1s infinite;
+}
+
 .menu-container-left ul {
     list-style:none;
     text-indent: -9999px;
@@ -230,4 +243,21 @@ img {
 .change .square {
     -webkit-transform: rotate(-111deg) translate(-9px, 6px) ;
     transform: rotate(-111deg) translate(-9px, 6px) ;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    0%   {top: 0px; left: 0px; background: red;}
+    25%  {top: 0px; left: 2px; background: blue;}
+    50%  {top: 2px; left: 2px; background: yellow;}
+    75%  {top: 2px; left: 0px; background: green;}
+    100% {top: 0px; left: 0px; background: red;}
+}
+
+@keyframes mymove {
+    0%   {top: 0px; left: 0px; background: red;}
+    25%  {top: 0px; left: 2px; background: blue;}
+    50%  {top: 2px; left: 2px; background: yellow;}
+    75%  {top: 2px; left: 0px; background: green;}
+    100% {top: 0px; left: 0px; background: red;}
 }
