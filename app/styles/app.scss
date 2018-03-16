@@ -19,10 +19,6 @@ body {
     text-align: center;
 }
 
-li {
-   cursor: pointer;
-}
-
 .container {
     position: relative;
     width: 100%;
@@ -89,6 +85,7 @@ img {
 
 .feed { 
       width: 75%;
+      height: 600px;
       border: 5px solid green;
       margin: 0 auto;
       background: blue;
@@ -99,10 +96,14 @@ img {
 .item {
       width: 100%;
       padding: 5px;
-      border: 1px solid red;
+      border: 3px solid black;
+      border-radius: 25px;
       margin: 0 auto;
       position: relative;
       float: left;
+      padding-bottom: 10px;
+      padding-top: 20px;
+      margin: 20px 0;
 }
 
 .item img{
@@ -214,7 +215,6 @@ img {
     text-indent: -9999px;
     display: block;
     position: relative;
-    float: left;
     margin-left: auto;
     margin-right: auto;
 }
@@ -228,6 +228,10 @@ img {
 .menu-container-right ul {
     list-style:none;
     text-indent: -9999px;
+    display: block;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .square {	
