@@ -1,6 +1,8 @@
 {
   "name": "andrew-app",
-  "dependencies": {},
+  "dependencies": {
+    "twix": "^1.2.1"
+  },
   "description": "",
   "main": "",
   "license": "MIT",

@@ -44,7 +44,10 @@
     "ember-resolver": "^2.0.3",
     "ember-responsive": "2.0.2",
     "ember-source": "~2.11.0",
+    "ember-ui-components": "0.12.0",
     "ember-welcome-page": "^2.0.2",
+    "emberui": "1.0.0-beta.9",
+    "liquid-fire": "0.29.2",
     "loader.js": "^4.0.10"
   },
   "engines": {
