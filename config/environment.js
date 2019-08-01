@@ -1,15 +1,15 @@
-/* jshint node: true */
+'use strict';
 
 module.exports = function(environment) {
-  var ENV = {
-    modulePrefix: 'andrew-app',
-    environment: environment,
+  let ENV = {
+    modulePrefix: 'andrewapp',
+    environment,
     rootURL: '/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
-        // e.g. 'with-controller': true
+        // e.g. EMBER_NATIVE_DECORATOR_SUPPORT: true
       },
       EXTEND_PROTOTYPES: {
         // Prevent Ember Data from overriding Date.parse.
@@ -23,23 +23,12 @@ module.exports = function(environment) {
     }
   };
 
-  ENV.contentSecurityPolicy = {
-      'default-src': "'none'",
-      'script-src': "'self' https://code.jquery.com https://maxcdn.bootstrapcdn.com https://cdnjs.cloudflare.com", // Allow scripts from https://code.jquery.com, https://maxcdn.bootstrapcdn.com, and https://cdnjs.cloudflare.com
-      'font-src': "'self' https://maxcdn.bootstrapcdn.com https://cdnjs.cloudflare.com https://fonts.gstatic.com", // Allow fonts from https://maxcdn.bootstrapcdn.com, https://cdnjs.cloudflare.com and https://fonts.gstatic.com
-      'connect-src': "'self'",
-      'img-src': "'self'",
-      'style-src': "'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://cdnjs.cloudflare.com https://fonts.gstatic.com https://fonts.googleapis.com", // Allow styles from https://maxcdn.bootstrapcdn.com, https://cdnjs.cloudflare.com and https://fonts.googleapis.com
-      'media-src': "'self'"
-  }
-
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
-      ENV.contentSecurityPolicy['img-src'] += " http://lorempixel.com http://s3.amazonaws.com"; // Allow images from http://lorempixel.com and https://s3.amazonaws.com (Used for UIFaces)
   }
 
   if (environment === 'test') {
@@ -51,12 +40,11 @@ module.exports = function(environment) {
     ENV.APP.LOG_VIEW_LOOKUPS = false;
 
     ENV.APP.rootElement = '#ember-testing';
+    ENV.APP.autoboot = false;
   }
 
   if (environment === 'production') {
-      ENV.googleAnalytics = {
-	webPropertyId: 'UA-93893301-1'
-   };
+    // here you can enable a production-specific feature
   }
 
   return ENV;
